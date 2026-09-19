@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Local Database & SQLite logs
+*.db
+*.db-wal
+*.db-shm
+
+# Video/Image evidence output folders
+recordings/
+snapshots/
+alerts_videos/
+alerts_snapshots/
+reports/
+
+# AI Model weights
+*.pt
+*.onnx
+*.engine
+
+# Environment files with tokens
+.env
